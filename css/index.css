@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	vertical-align: middle;
+}
+.zsfundSaleContain{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.zsfundSaleContent{
+	flex: 1;
+	overflow-y: auto;
+}
+.zsfundSaleBanner{
+	padding: 10px;
+	background: linear-gradient(to bottom,#3390f0,#0ab9fc);
+}
+
+.zsfundSaleBannerTitle{
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
+.zsfundSaleBannerMoney{
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+}
+
+
+.zsfundSaleScreenTime{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 16px;
+}
+.zsfundResultDateTime{
+	font-size: 12px;
+	color: #999;
+}
+
+.zsfundSaleScreenTime .van-dropdown-menu{
+	background-color: #EBEBEB;
+}
+.zsfundSaleScreenTime .van-dropdown-menu__item{
+	justify-content: flex-start;
+}
+
+
+
+.van-swipe-cell__right {
+  display: inline-block;
+  width: 65px;
+  height: 68px;
+  font-size: 15px;
+  line-height: 68px;
+  color: #fff;
+  text-align: center;
+}
+.zsfundSaleOperationContain{
+	display: flex;
+}
+.zsfundSaleOperationDel{
+	flex: 1;
+	background-color: #f44;
+}
+.zsfundSaleOperationEdit{
+	flex: 1;
+	background-color: #07c160;
+}
+.zsfundFundName{
+	font-size: 15px;
+}
+.zsfundFundMoney{
+	color: #f44;
+}
+.zsfundFundDate{
+	font-size: 13px;
+	color: #ccc;
+}
+.zsfundFundPersonName{
+	font-size: 13px;
+	color: #ccc;
+}
+
+.zsfundAddSaleFormTitle{
+	padding: 20px 16px 10px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.zsfundNoticeBar{
+	margin: 3px 0;
+}
