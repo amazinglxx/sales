@@ -20,9 +20,7 @@
 		<div id="app">
 			<van-cell is-link @click="showPopup">展示弹出层</van-cell>
 			<van-popup v-model="show" position="right" style="width: 100vw;height: 100vh;background:#EBEBEB;">
-				
-				
-				
+			
 				<div class="zsfundSaleContain">
 					<div class="zsfundSaleHeader">
 						<van-nav-bar title="销售记录" left-text="返回" left-arrow @click-left="onClickLeft">
@@ -34,8 +32,9 @@
 							<van-notice-bar :scrollable="true" left-icon="volume-o" color="#1989fa" background="#ecf9ff" mode="closeable">销售记录为手工维护，仅供参考</van-notice-bar>
 						</div>
 						<div class="zsfundSaleBanner">
-							<h1 class="zsfundSaleBannerTitle">总金额<span style="font-size: 12px;margin-left: 5px;">(万元)</span></h1>
+							<h1 class="zsfundSaleBannerTitle">总金额</h1>
 							<p class="zsfundSaleBannerMoney">¥120,255.11</p>
+							<span class="zsfundSaleBannerMoneyUnit">单位：万元</span>
 						</div>
 						<div class="zsfundSaleScreenTime">
 							<van-dropdown-menu>
